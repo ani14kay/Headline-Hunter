@@ -1,10 +1,5 @@
 # Headline Hunter: Fake News Detection
 
-![Real Prediction](assets/demo-real.jpg)
-
-![Fake Prediction](assets/demo-fake.jpg)
-
-
 A web-based fake news detection interface built for our MSML606 project at the University of Maryland. This project compares three approaches:
 
 - 🧠 **Data Structure-Based Model (DSA + Random Forest)**
@@ -27,10 +22,10 @@ Fake news poses serious risks in digital communication. This project evaluates:
 - Interactive Flask-based web UI: **Headline Hunter**
 - Confidence score and model output shown on-screen
 - DSA RF model enabled by default in the interface
-- Multi-model toggle feature to switch between DSA RF, TF-IDF RF, and BERT
+- Multi-model toggle feature to switch between DSA RF, TF-IDF RF, and BERT (under development)
 - Clean, animated UI with color-coded results
 
-## 📊 Results Summary (from MSML606_Report.pdf)
+## 📊 Results Summary
 
 | Model   | Accuracy | F1 Score | Training Time  | Inference Time | Model Size |
 |---------|----------|----------|----------------|----------------|------------|
@@ -49,26 +44,6 @@ Fake news poses serious risks in digital communication. This project evaluates:
 - Allows input of title and text
 - Predicts Real / Fake with confidence score
 - Works entirely locally via Flask backend
-
-## 🗂 Folder Structure
-
-```
-├── app.py                 # Flask app logic
-├── model/                 # Saved models: DSA RF, TF-IDF RF, BERT
-├── templates/
-│   └── index.html         # UI template with model selector
-├── static/
-│   └── style.css          # UI styling and animations
-├── assets/                # UI screenshots and demo images
-│   ├── demo-real.jpg
-│   └── demo-fake.jpg
-├── data/
-│   ├── train.csv          # Kaggle training data
-│   ├── test.csv
-│   └── evaluation.csv
-├── MSML606.ipynb          # Notebook with training and experiments
-└── README.md
-```
 
 ## 🧪 How to Run Locally
 
@@ -92,7 +67,7 @@ python app.py
 
 ## 👩‍💻 Contributions
 
-This project was developed by Yatish Sikka, Nikita Miller, Aariz Faridi, and Anisha Katiyar for MSML606. All model implementations, experiments, and UI designs were done from scratch.
+This project was developed by Anisha Katiyar, Nikita Miller, Aariz Faridi, and Yatish Sikka for MSML606. All model implementations, experiments, and UI designs were done from scratch.
 
 ## 📚 Dataset
 [Kaggle Fake News Classification Dataset](https://www.kaggle.com/datasets/aadyasingh55/fake-news-classification)
