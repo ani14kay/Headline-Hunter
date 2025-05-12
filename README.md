@@ -79,4 +79,4 @@ This project was developed by Anisha Katiyar, Nikita Miller, Aariz Faridi, and Y
 
 ---
 
-For detailed architecture and results, see our [MSML606_Report.pdf](MSML606_Report.pdf).
+For detailed architecture and results, see our [MSML606_Report.pdf](documents/MSML606_Report.pdf).
