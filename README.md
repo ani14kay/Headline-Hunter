@@ -79,7 +79,7 @@ Open [http://127.0.0.1:5000](http://127.0.0.1:5000) in your browser.
 ## 👨‍💻 Team
 
 Built for **MSML606: Alogorithms and Data Structures for Machine Learning**  
-University of Maryland – Robert H. Smith School of Business
+University of Maryland – College of Computer, Mathematical, and Natural Sciences.
 
 **Contributors**:
 - Anisha Katiyar
