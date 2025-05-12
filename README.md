@@ -27,11 +27,11 @@ Fake news poses serious risks in digital communication. This project evaluates:
 
 ## 📊 Results Summary
 
-| Model   | Accuracy | F1 Score | Training Time  | Inference Time | Model Size |
-|---------|----------|----------|----------------|----------------|------------|
-| DSA RF  | 91.02%   | 92.11%   | 1.94 sec       | 0.000008 sec   | 10.32 MB   |
-| TF-IDF  | 95.97%   | 96.32%   | 5.06 sec       | 0.000016 sec   | 5.01 MB    |
-| BERT    | 97.95%   | 98.09%   | N/A            | 0.1171 sec     | 437.96 MB  |
+|  Model  | Accuracy | F1 Score | Training Time |   Inference Time   | Model Size |
+|---------|----------|----------|---------------|--------------------|------------|
+| DSA RF  | 91.02%   | 92.11%   | 1.94 sec      |  0.000008 sec      | 10.32 MB   |
+| TF-IDF  | 95.97%   | 96.32%   | 5.06 sec      |  0.000016 sec      | 5.01 MB    |
+| BERT    | 97.95%   | 98.09%   | 3.5 hours     |  0.1171 sec/sample | 437.96 MB  |
 
 ## 🖼 Sample UI Screenshots
 
